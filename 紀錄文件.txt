@@ -1,0 +1,53 @@
+1-num_epochs:150 batch_size:64 lr:0.01 Adam
+2-num_epochs:150 batch_size:64 lr:0.01 SGD
+3-num_epochs:150 batch_size:128 lr:0.01 Adam
+4-num_epochs:200 batch_size:128 lr:0.03 Adam
+5-num_epochs:150 batch_size:64 lr:0.01 RMSprop
+6-num_epochs:200 batch_size:64 lr:0.01 RMSprop
+7-num_epochs:200 batch_size:128 lr:0.01 RMSprop
+8-num_epochs:200 batch_size:128 lr:0.01 Adam
+9-num_epochs:200 batch_size:128 lr:0.01 Adam 數據增強 15
+10-num_epochs:200 batch_size:128 lr:0.001 Adam 數據增強 5
+11-num_epochs:200 batch_size:32 lr:0.01 Adam
+12-num_epochs:150 batch_size:256 lr:0.01 Adam
+13-num_epochs:150 batch_size:64  lr:0.1 Adam
+14-num_epochs:150 batch_size:64 lr:0.05 Adam
+15-num_epochs:500 batch_size:64 lr:0.001 Adam
+16-num_epochs:500 batch_size:64 lr:0.005 Adam
+17-num_epochs:500 batch_size:64 lr:0.01 Adam
+18-num_epochs:500 batch_size:128 lr:0.01 Adam
+
+19-num_epochs:500 batch_size:64 lr:0.01 SGD 0.01 ELU 1.0 Dropout 0.25
+
+20-num_epochs:500 batch_size:64 lr:0.01 SGD 0.01 , momentum=0.9
+21-num_epochs:500 batch_size:64 lr:0.01 Adam 0.01
+22-num_epochs:500 batch_size:64 lr:0.01 Adam 0.003
+23-num_epochs:300 batch_size:64 lr:0.01 Adam 0.001 RELU
+24-num_epochs:300 batch_size:64 lr:0.01 Adam 0.001 LeakyReLU
+25-num_epochs:300 batch_size:64 lr:0.01 SGD 0.01 LeakyReLU
+26-num_epochs:500 batch_size:64 lr:0.01 SGD 0.01 LeakyReLU
+27-num_epochs:500 batch_size:64 lr:0.01 SGD 0.01 ReLU
+28-num_epochs:300 batch_size:128 lr:0.01 SGD 0.01 ReLU
+
+***(圖3-5)
+29-num_epochs:500 batch_size:64 lr:0.02 SGD 0.01 ReLU
+
+(圖6-8)
+19-num_epochs:500 batch_size:64 lr:0.01 SGD 0.01 ELU 1.0 Dropout 0.25
+30-num_epochs:500 batch_size:64 lr:0.01 SGD 0.01 ELU 3.0
+31-num_epochs:500 batch_size:64 lr:0.01 SGD 0.01 ELU -1.0
+
+(圖9-11)
+19-num_epochs:500 batch_size:64 lr:0.01 SGD 0.01 ELU 1.0 Dropout 0.25
+32-num_epochs:500 batch_size:64 lr:0.01 SGD 0.01 ELU -1.0 Dropout 0.5
+33-num_epochs:500 batch_size:64 lr:0.01 SGD 0.01 ELU -1.0 Dropout 1.0
+
+(圖12-14)
+19-num_epochs:500 batch_size:64 lr:0.01 SGD 0.01 ELU 1.0 Dropout 0.25
+17-num_epochs:500 batch_size:64 lr:0.01 Adam
+6-num_epochs:200 batch_size:64 lr:0.01 RMSprop
+
+(圖15-17)
+19-num_epochs:500 batch_size:64 lr:0.01 SGD 0.01 ELU 1.0 Dropout 0.25
+27-num_epochs:500 batch_size:64 lr:0.01 SGD 0.01 ReLU
+26-num_epochs:500 batch_size:64 lr:0.01 SGD 0.01 LeakyReLU
